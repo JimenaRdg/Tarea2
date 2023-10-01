@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camisas", "Tarea2\Camisas.csproj", "{5430E099-45A5-47E6-B9FF-24899C2BAF97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promedio", "Ejercicio2\Promedio.csproj", "{92FAED00-F294-4EE9-A50E-6BEF214BF51B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "productos", "productos\productos.csproj", "{BBB96F73-82F6-4B56-B030-543A7A5E2D36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5430E099-45A5-47E6-B9FF-24899C2BAF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5430E099-45A5-47E6-B9FF-24899C2BAF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5430E099-45A5-47E6-B9FF-24899C2BAF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5430E099-45A5-47E6-B9FF-24899C2BAF97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FAED00-F294-4EE9-A50E-6BEF214BF51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FAED00-F294-4EE9-A50E-6BEF214BF51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FAED00-F294-4EE9-A50E-6BEF214BF51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FAED00-F294-4EE9-A50E-6BEF214BF51B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB96F73-82F6-4B56-B030-543A7A5E2D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB96F73-82F6-4B56-B030-543A7A5E2D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB96F73-82F6-4B56-B030-543A7A5E2D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB96F73-82F6-4B56-B030-543A7A5E2D36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F861F9C-4073-4FCF-A30B-CD9053655B64}
+	EndGlobalSection
+EndGlobal
