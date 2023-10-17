@@ -67,6 +67,8 @@ namespace Ejercicio2
 
             promedioFinal = porcentajequiz + porcentajeTarea + porcentajeExam ;
 
+            Console.WriteLine($"Nombre del estudiante:{nombre}");
+            Console.WriteLine($"Carnet del estudiante:{carnet}");
             Console.WriteLine($"El porcentaje de los quices es: {porcentajequiz}");
             Console.WriteLine($"El porcentaje de las tareas es: {porcentajeTarea}");
             Console.WriteLine($"El porcentaje de los examenes es: {porcentajeExam}");

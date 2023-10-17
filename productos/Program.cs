@@ -11,20 +11,28 @@ namespace productos
         static void Main(string[] args)
         {
             int productos;
-            
+            double PrecioArticulo=0;
+
 
             Console.WriteLine("Digite la cantidad de productos");
             productos=int.Parse(Console.ReadLine());
 
             if (productos<=10) {
-                Console.WriteLine("el precio por producto es de $20");
+
+                PrecioArticulo = 20;
 
             }
             else if (productos>10) 
             {
-                Console.WriteLine("El precio por producto es de $15");
+                PrecioArticulo = 15; 
          
             }
+            double total = productos * PrecioArticulo;
+
+            Console.WriteLine($"La cantidad de articulos es: {productos}");
+            Console.WriteLine($"El precio de articulos es: {PrecioArticulo}");
+            Console.WriteLine($"El total es: {total}");
+
             Console.ReadLine();
         }
 
